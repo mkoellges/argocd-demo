@@ -36,6 +36,4 @@ argocd account update-password
 kubectl config get-contexts -o name
 
 kubens argocd
-
-kubectl apply -f argocd-kustomize-crd.yaml
 ```
