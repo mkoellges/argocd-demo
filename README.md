@@ -5,7 +5,7 @@
 ```sh
 kubectl create namespace argocd
 kubectl apply -n argocd -k "https://github.com/argoproj/argo-cd/manifests/crds?ref=v2.4.9"
-
+kubectl apply -f ingress.yaml
 ```
 
 ## 2. Forward Port to access argoCD server
