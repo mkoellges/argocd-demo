@@ -11,7 +11,7 @@ helm install -n argocd argo-cd argo-cd/argo-cd -f values.yaml --version 5.52.0
 ## 2. Forward Port to access argoCD server
 
 ```bash
-kubectl port-forward -n argocd svc/argocd-server 8443:443
+kubectl port-forward -n argocd svc/argo-cd-argocd-server 8443:443
 ```
 
 ## 3. Get Admin Password
