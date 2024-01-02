@@ -1947,7 +1947,7 @@ server:
           - argocd.koellgma.de
 
     # -- Uses `server.service.servicePortHttps` instead `server.service.servicePortHttp`
-    https: true
+    https: false
 
   # dedicated ingress for gRPC as documented at
   # Ref: https://argo-cd.readthedocs.io/en/stable/operator-manual/ingress/
